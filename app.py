@@ -39,7 +39,7 @@ if st.button('Show recommendation'):
     # for i in recommendations:
     #     st.write(i)
     names, posters = recommend(option)
-    col1, col2, col3, col4, col5 = st.beta_coloumns(3)
+    col1, col2, col3, col4, col5 = st.beta_columns(5)
     with col1:
         st.text(names[0])
         st.image(posters[0])
